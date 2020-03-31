@@ -15,7 +15,7 @@ public class StringExercises {
 //                .filter(Character::isLowerCase)
 //                .count();
 
-       return (int) string.chars()
+        return (int) string.chars()
                 .filter(value -> Character.isLowerCase(value)).count();
 
 //        return Exercises.replaceThisWithSolution();
